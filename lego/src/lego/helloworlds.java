@@ -19,7 +19,6 @@ public class helloworlds extends Thread{
 		 
 		  //linefollower
 		   
-		   //comment
 		   
 	    while(true){
 			  
