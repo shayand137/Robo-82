@@ -9,7 +9,7 @@ import lejos.robotics.Color;
 import lejos.robotics.RegulatedMotor;
 import lejos.robotics.SampleProvider;
 import lejos.utility.Delay;
-
+//add comment
 public class helloworlds extends Thread {
 
 	// DataExchange object
