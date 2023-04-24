@@ -64,7 +64,7 @@ public class helloworlds extends Thread {
 					motorA.stop();
 					motorD.stop();
 
-					// turn right and move forward for 1 second
+					// turn right 
 					motorA.setSpeed(280);
 					motorD.setSpeed(180);
 					motorA.forward();
@@ -72,7 +72,7 @@ public class helloworlds extends Thread {
 
 					Delay.msDelay(1800);
 
-					// turn left and move forward for 1 second
+					// turn left 
 					motorA.setSpeed(120);
 					motorD.setSpeed(250);
 					motorA.forward();
@@ -88,7 +88,7 @@ public class helloworlds extends Thread {
 
 					//Delay.msDelay(2000);
 
-					// turn right and move forward for 1 second
+					// turn right 
 					motorA.setSpeed(250);
 					motorD.setSpeed(90);
 					motorA.forward();

@@ -13,7 +13,7 @@ public class ObstacleDetector extends Thread {
 		
 		//Sample provider method that receives values from the sensor
 		// We are using this to get values for the distance from the ultrasonic sensor
-		
+	
 		
 		int distanceValue;
 		private final int safeDistance = 23; // how distant the obstacle has to be for the robot to avoid it

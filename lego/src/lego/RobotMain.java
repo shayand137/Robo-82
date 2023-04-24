@@ -10,13 +10,18 @@ public class RobotMain {
 	private static ColorSensor CSObj = new ColorSensor (DE);
 	
 	public static void main(String[] args) {
+//		System.out.println("Hello It's Robo82");
+//		System.out.println("Veronika ");
+//		System.out.println("Mohammadreza");
+//		System.out.println("Aryan ");
+//		System.out.println("Welcome ... ");
 		
 		Button.waitForAnyPress();
 		ODObj.start();
 		LFObj.start();
 		CSObj.start();
 		
-		 
+		 //random comment
 		
 		while(!(Button.getButtons() !=0)) {
 			//break when button is pressed
