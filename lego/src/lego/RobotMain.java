@@ -8,7 +8,7 @@ public class RobotMain {
 	private static helloworlds LFObj  = new helloworlds(DE);
 	private static ObstacleDetector ODObj = new ObstacleDetector(DE);
 	private static ColorSensor CSObj = new ColorSensor (DE);
-	
+	//commit for Deepak task!
 	public static void main(String[] args) {
 		
 		Button.waitForAnyPress();
